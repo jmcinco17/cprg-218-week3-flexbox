@@ -1,0 +1,41 @@
+*{
+    box-sizing:border-box;
+}
+/*HEADER STYLES*/
+header{
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #dccfba;
+}
+header img{
+    width: 200px;
+    height: 200px;
+}
+
+main{
+    display: flex;
+    gap: 1rem;
+}
+
+main section{
+    flex: 1;
+    border:1px solid green;
+}
+
+h2{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+section li span{
+font-weight: bold;
+}
+
+
+section#desserts{
+    flex: 2;
+}
